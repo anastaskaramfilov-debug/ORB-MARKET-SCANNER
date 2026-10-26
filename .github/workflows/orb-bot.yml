@@ -1,4 +1,4 @@
-name: ORB bot
+name: ORB bot 
 
 on:
   schedule:
