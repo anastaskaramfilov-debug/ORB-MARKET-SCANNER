@@ -1,5 +1,7 @@
 {
  "date": "2026-10-28",
- "alerted": [],
+ "alerted": [
+  "AMD"
+ ],
  "flat_sent": false
 }

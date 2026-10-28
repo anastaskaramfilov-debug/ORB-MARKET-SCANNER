@@ -1,5 +1,22 @@
 [
  {
+  "date": "2026-10-28",
+  "symbol": "AMD",
+  "time_et": "14:40",
+  "time_sofia": "20:40",
+  "entry": 574.47,
+  "stop": 569.74,
+  "target": 579.2,
+  "risk": 4.73,
+  "shares": 2,
+  "cost": 1148.94,
+  "max_loss": 9.46,
+  "sized_by": "position cap",
+  "end_min": 880,
+  "range_high": 573.96,
+  "range_low": 565.52
+ },
+ {
   "date": "2026-10-27",
   "symbol": "MSFT",
   "time_et": "11:45",
