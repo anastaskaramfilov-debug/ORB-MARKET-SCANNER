@@ -15,5 +15,6 @@
   "no_entries_after": "15:30",
   "flat_by": "15:55",
   "pdt_guard": true,
-  "paper": true
+  "paper": true,
+  "max_alert_age_min": 15
 }
