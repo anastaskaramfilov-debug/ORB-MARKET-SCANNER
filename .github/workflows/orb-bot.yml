@@ -1,8 +1,11 @@
-name: ORB bot 
+name: ORB bot
 
 on:
   schedule:
-    - cron: "*/5 13-20 * * 1-5"
+    # Several start times, all UTC, so a late or skipped trigger doesn't matter.
+    # The first one that starts stays running and scans every 5 minutes by itself.
+    # Extra triggers wait in the queue (or show as cancelled); that is expected.
+    - cron: "5,25,45 12-20 * * 1-5"
   workflow_dispatch: {}
 
 permissions:
@@ -15,7 +18,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
 
@@ -28,23 +31,16 @@ jobs:
           else
             mkdir data-out && cd data-out && git init -q -b data && git remote add origin "$REPO_URL"
           fi
+          git -C data-out config user.name "orb-bot"
+          git -C data-out config user.email "orb-bot@users.noreply.github.com"
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Scan
+      - name: Scan every 5 minutes until the close
         env:
           DATA_DIR: data-out
+          PUSH_DATA: "1"
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-        run: python bot/orb_bot.py
-
-      - name: Save results
-        working-directory: data-out
-        run: |
-          git config user.name "orb-bot"
-          git config user.email "orb-bot@users.noreply.github.com"
-          git add -A
-          if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
-          git commit -q -m "scan $(date -u +%H:%M)"
-          git push -q origin data
+        run: python bot/orb_bot.py --loop 340
