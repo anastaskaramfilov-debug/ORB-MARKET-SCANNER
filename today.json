@@ -1,14 +1,14 @@
 {
  "date": "2026-10-28",
- "checked_at_utc": "2026-10-28T19:45:40Z",
- "checked_et": "15:45",
+ "checked_at_utc": "2026-10-28T19:50:40Z",
+ "checked_et": "15:50",
  "early_close": false,
  "fetched": 8,
  "total": 8,
  "tickers": [
   {
    "symbol": "TSLA",
-   "last": 403.17,
+   "last": 403.36,
    "status": "waiting",
    "range_high": 410.85,
    "range_low": 401.91,
@@ -16,7 +16,7 @@
   },
   {
    "symbol": "NVDA",
-   "last": 214.84,
+   "last": 214.97,
    "status": "waiting",
    "range_high": 219.99,
    "range_low": 218.67,
@@ -24,7 +24,7 @@
   },
   {
    "symbol": "AMD",
-   "last": 576.74,
+   "last": 577.12,
    "status": "breakout",
    "range_high": 573.96,
    "range_low": 565.52,
@@ -44,7 +44,7 @@
   },
   {
    "symbol": "AAPL",
-   "last": 344.2,
+   "last": 344.48,
    "status": "waiting",
    "range_high": 347.18,
    "range_low": 344.83,
@@ -52,7 +52,7 @@
   },
   {
    "symbol": "META",
-   "last": 611.63,
+   "last": 611.27,
    "status": "waiting",
    "range_high": 624.42,
    "range_low": 619.0,
@@ -60,7 +60,7 @@
   },
   {
    "symbol": "AMZN",
-   "last": 254.7,
+   "last": 254.81,
    "status": "waiting",
    "range_high": 255.36,
    "range_low": 252.53,
@@ -68,7 +68,7 @@
   },
   {
    "symbol": "MSFT",
-   "last": 529.47,
+   "last": 529.91,
    "status": "waiting",
    "range_high": 534.57,
    "range_low": 529.71,
@@ -76,7 +76,7 @@
   },
   {
    "symbol": "PLTR",
-   "last": 194.3,
+   "last": 195.05,
    "status": "waiting",
    "range_high": 198.72,
    "range_low": 195.76,
