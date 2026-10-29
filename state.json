@@ -1,7 +1,10 @@
 {
- "date": "2026-10-28",
+ "date": "2026-10-29",
  "alerted": [
-  "AMD"
+  "TSLA",
+  "AMD",
+  "META",
+  "AMZN"
  ],
- "flat_sent": true
+ "flat_sent": false
 }
