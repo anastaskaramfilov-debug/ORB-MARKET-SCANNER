@@ -1,146 +1,74 @@
 {
- "date": "2026-11-04",
- "checked_at_utc": "2026-11-04T21:05:40Z",
- "checked_et": "16:05",
+ "date": "2026-11-05",
+ "checked_at_utc": "2026-11-05T19:51:47Z",
+ "checked_et": "14:51",
  "early_close": false,
  "fetched": 8,
  "total": 8,
  "tickers": [
   {
    "symbol": "TSLA",
-   "last": 385.19,
-   "status": "breakout",
-   "range_high": 383.07,
-   "range_low": 375.5,
-   "breakout": {
-    "time_et": "09:55",
-    "time_sofia": "16:55",
-    "entry": 384.14,
-    "stop": 379.29,
-    "target": 388.99,
-    "risk": 4.85,
-    "shares": 3,
-    "cost": 1152.42,
-    "max_loss": 14.55,
-    "sized_by": "position cap",
-    "end_min": 595
-   }
+   "last": 345.35,
+   "status": "waiting",
+   "range_high": 371.85,
+   "range_low": 353.82,
+   "note": "no 5-minute close above 371.85 yet"
   },
   {
    "symbol": "NVDA",
-   "last": 200.13,
+   "last": 184.99,
    "status": "waiting",
-   "range_high": 206.6,
-   "range_low": 200.94,
-   "note": "no 5-minute close above 206.60 yet"
+   "range_high": 196.23,
+   "range_low": 191.51,
+   "note": "no 5-minute close above 196.23 yet"
   },
   {
    "symbol": "AMD",
-   "last": 488.78,
-   "status": "breakout",
-   "range_high": 508.08,
-   "range_low": 476.5,
-   "breakout": {
-    "time_et": "09:50",
-    "time_sofia": "16:50",
-    "entry": 510.15,
-    "stop": 492.29,
-    "target": 528.01,
-    "risk": 17.86,
-    "shares": 1,
-    "cost": 510.15,
-    "max_loss": 17.86,
-    "sized_by": "max loss",
-    "end_min": 590
-   }
+   "last": 421.58,
+   "status": "waiting",
+   "range_high": 451.49,
+   "range_low": 434.47,
+   "note": "no 5-minute close above 451.49 yet"
   },
   {
    "symbol": "AAPL",
-   "last": 349.51,
-   "status": "breakout",
-   "range_high": 350.48,
-   "range_low": 340.99,
-   "breakout": {
-    "time_et": "09:55",
-    "time_sofia": "16:55",
-    "entry": 350.9,
-    "stop": 345.74,
-    "target": 356.06,
-    "risk": 5.16,
-    "shares": 3,
-    "cost": 1052.71,
-    "max_loss": 15.48,
-    "sized_by": "max loss",
-    "end_min": 595
-   }
+   "last": 345.74,
+   "status": "waiting",
+   "range_high": 355.38,
+   "range_low": 350.95,
+   "note": "no 5-minute close above 355.38 yet"
   },
   {
    "symbol": "META",
-   "last": 630.0,
+   "last": 608.07,
    "status": "waiting",
-   "range_high": 643.09,
-   "range_low": 629.0,
-   "note": "no 5-minute close above 643.09 yet"
+   "range_high": 634.99,
+   "range_low": 616.65,
+   "note": "no 5-minute close above 634.99 yet"
   },
   {
    "symbol": "AMZN",
-   "last": 266.03,
-   "status": "breakout",
-   "range_high": 269.97,
-   "range_low": 263.85,
-   "breakout": {
-    "time_et": "10:00",
-    "time_sofia": "17:00",
-    "entry": 270.37,
-    "stop": 266.91,
-    "target": 273.83,
-    "risk": 3.46,
-    "shares": 5,
-    "cost": 1351.85,
-    "max_loss": 17.3,
-    "sized_by": "max loss",
-    "end_min": 600
-   }
+   "last": 261.32,
+   "status": "waiting",
+   "range_high": 273.23,
+   "range_low": 266.23,
+   "note": "no 5-minute close above 273.23 yet"
   },
   {
    "symbol": "MSFT",
-   "last": 555.8,
-   "status": "breakout",
-   "range_high": 551.81,
-   "range_low": 542.34,
-   "breakout": {
-    "time_et": "10:00",
-    "time_sofia": "17:00",
-    "entry": 553.17,
-    "stop": 547.08,
-    "target": 559.26,
-    "risk": 6.09,
-    "shares": 2,
-    "cost": 1106.34,
-    "max_loss": 12.18,
-    "sized_by": "position cap",
-    "end_min": 600
-   }
+   "last": 540.02,
+   "status": "waiting",
+   "range_high": 557.62,
+   "range_low": 547.57,
+   "note": "no 5-minute close above 557.62 yet"
   },
   {
    "symbol": "PLTR",
-   "last": 171.7,
-   "status": "breakout",
-   "range_high": 172.46,
-   "range_low": 164.6,
-   "breakout": {
-    "time_et": "09:50",
-    "time_sofia": "16:50",
-    "entry": 172.55,
-    "stop": 168.53,
-    "target": 176.57,
-    "risk": 4.02,
-    "shares": 4,
-    "cost": 690.22,
-    "max_loss": 16.08,
-    "sized_by": "max loss",
-    "end_min": 590
-   }
+   "last": 156.68,
+   "status": "waiting",
+   "range_high": 167.25,
+   "range_low": 158.34,
+   "note": "no 5-minute close above 167.25 yet"
   }
  ]
 }
