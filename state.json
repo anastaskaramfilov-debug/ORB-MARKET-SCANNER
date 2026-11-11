@@ -1,10 +1,10 @@
 {
- "date": "2026-11-10",
+ "date": "2026-11-11",
  "alerted": [
   "TSLA",
+  "NVDA",
   "AMD",
-  "META",
-  "AMZN"
+  "AAPL"
  ],
- "flat_sent": true
+ "flat_sent": false
 }
