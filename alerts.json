@@ -1,6 +1,23 @@
 [
  {
   "date": "2026-11-12",
+  "symbol": "TSLA",
+  "time_et": "15:25",
+  "time_sofia": "22:25",
+  "entry": 398.75,
+  "stop": 390.7,
+  "target": 406.8,
+  "risk": 8.05,
+  "shares": 2,
+  "cost": 797.5,
+  "max_loss": 16.1,
+  "sized_by": "max loss",
+  "end_min": 925,
+  "range_high": 396.2,
+  "range_low": 385.2
+ },
+ {
+  "date": "2026-11-12",
   "symbol": "PLTR",
   "time_et": "11:10",
   "time_sofia": "18:10",
