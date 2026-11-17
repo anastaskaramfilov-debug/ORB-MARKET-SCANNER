@@ -1,8 +1,8 @@
 {
- "date": "2026-11-13",
+ "date": "2026-11-17",
  "alerted": [
-  "META",
-  "MSFT"
+  "AAPL",
+  "AMZN"
  ],
- "flat_sent": true
+ "flat_sent": false
 }
