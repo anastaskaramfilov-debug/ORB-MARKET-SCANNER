@@ -1,98 +1,110 @@
 {
- "date": "2026-11-17",
- "checked_at_utc": "2026-11-17T21:05:40Z",
- "checked_et": "16:05",
+ "date": "2026-11-18",
+ "checked_at_utc": "2026-11-18T20:24:10Z",
+ "checked_et": "15:24",
  "early_close": false,
  "fetched": 8,
  "total": 8,
  "tickers": [
   {
    "symbol": "TSLA",
-   "last": 380.11,
+   "last": 383.19,
    "status": "waiting",
-   "range_high": 382.5,
-   "range_low": 378.94,
-   "note": "no 5-minute close above 382.50 yet"
+   "range_high": 389.27,
+   "range_low": 379.35,
+   "note": "no 5-minute close above 389.27 yet"
   },
   {
    "symbol": "NVDA",
-   "last": 155.46,
+   "last": 150.6,
    "status": "waiting",
-   "range_high": 157.46,
-   "range_low": 154.76,
-   "note": "no 5-minute close above 157.46 yet"
+   "range_high": 159.7,
+   "range_low": 154.42,
+   "note": "no 5-minute close above 159.70 yet"
   },
   {
    "symbol": "AMD",
-   "last": 503.41,
-   "status": "waiting",
-   "range_high": 511.85,
-   "range_low": 500.5,
-   "note": "no 5-minute close above 511.85 yet"
-  },
-  {
-   "symbol": "AAPL",
-   "last": 351.91,
+   "last": 521.43,
    "status": "breakout",
-   "range_high": 353.55,
-   "range_low": 351.81,
+   "range_high": 519.8,
+   "range_low": 496.0,
    "breakout": {
-    "time_et": "09:55",
-    "time_sofia": "16:55",
-    "entry": 354.68,
-    "stop": 352.68,
-    "target": 356.68,
-    "risk": 2.0,
-    "shares": 4,
-    "cost": 1418.72,
-    "max_loss": 8.0,
-    "sized_by": "position cap",
-    "end_min": 595
+    "time_et": "12:30",
+    "time_sofia": "19:30",
+    "entry": 521.2,
+    "stop": 507.9,
+    "target": 534.5,
+    "risk": 13.3,
+    "shares": 1,
+    "cost": 521.2,
+    "max_loss": 13.3,
+    "sized_by": "max loss",
+    "end_min": 750
    }
   },
   {
-   "symbol": "META",
-   "last": 618.87,
+   "symbol": "AAPL",
+   "last": 352.0,
    "status": "waiting",
-   "range_high": 627.48,
-   "range_low": 619.81,
-   "note": "no 5-minute close above 627.48 yet"
+   "range_high": 355.87,
+   "range_low": 351.87,
+   "note": "no 5-minute close above 355.87 yet"
+  },
+  {
+   "symbol": "META",
+   "last": 613.73,
+   "status": "waiting",
+   "range_high": 620.81,
+   "range_low": 615.02,
+   "note": "no 5-minute close above 620.81 yet"
   },
   {
    "symbol": "AMZN",
-   "last": 257.89,
+   "last": 265.91,
    "status": "breakout",
-   "range_high": 258.98,
-   "range_low": 257.35,
+   "range_high": 263.1,
+   "range_low": 260.01,
    "breakout": {
     "time_et": "10:00",
     "time_sofia": "17:00",
-    "entry": 259.26,
-    "stop": 258.17,
-    "target": 260.35,
-    "risk": 1.09,
+    "entry": 263.28,
+    "stop": 261.56,
+    "target": 265.0,
+    "risk": 1.72,
     "shares": 5,
-    "cost": 1296.3,
-    "max_loss": 5.45,
+    "cost": 1316.4,
+    "max_loss": 8.6,
     "sized_by": "position cap",
     "end_min": 600
    }
   },
   {
    "symbol": "MSFT",
-   "last": 506.24,
-   "status": "waiting",
-   "range_high": 515.64,
-   "range_low": 511.1,
-   "note": "no 5-minute close above 515.64 yet"
+   "last": 506.01,
+   "status": "breakout",
+   "range_high": 508.5,
+   "range_low": 502.07,
+   "breakout": {
+    "time_et": "13:40",
+    "time_sofia": "20:40",
+    "entry": 509.67,
+    "stop": 505.28,
+    "target": 514.06,
+    "risk": 4.39,
+    "shares": 2,
+    "cost": 1019.34,
+    "max_loss": 8.78,
+    "sized_by": "position cap",
+    "end_min": 820
+   }
   },
   {
    "symbol": "PLTR",
-   "last": 156.56,
+   "last": 156.08,
    "status": "waiting",
-   "range_high": 162.59,
-   "range_low": 159.88,
-   "note": "no 5-minute close above 162.59 yet"
+   "range_high": 158.44,
+   "range_low": 154.94,
+   "note": "no 5-minute close above 158.44 yet"
   }
  ]
 }

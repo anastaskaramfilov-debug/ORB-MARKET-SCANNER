@@ -1,8 +1,9 @@
 {
- "date": "2026-11-17",
+ "date": "2026-11-18",
  "alerted": [
-  "AAPL",
-  "AMZN"
+  "AMD",
+  "AMZN",
+  "MSFT"
  ],
- "flat_sent": true
+ "flat_sent": false
 }
