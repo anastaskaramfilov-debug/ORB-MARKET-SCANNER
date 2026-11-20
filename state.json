@@ -1,8 +1,11 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "alerted": [
-  "AMD",
-  "MSFT"
+  "TSLA",
+  "META",
+  "AMZN",
+  "MSFT",
+  "PLTR"
  ],
- "flat_sent": true
+ "flat_sent": false
 }

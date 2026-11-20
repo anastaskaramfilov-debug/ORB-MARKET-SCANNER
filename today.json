@@ -1,98 +1,134 @@
 {
- "date": "2026-11-19",
- "checked_at_utc": "2026-11-19T21:05:40Z",
- "checked_et": "16:05",
+ "date": "2026-11-20",
+ "checked_at_utc": "2026-11-20T19:59:38Z",
+ "checked_et": "14:59",
  "early_close": false,
  "fetched": 8,
  "total": 8,
  "tickers": [
   {
    "symbol": "TSLA",
-   "last": 374.41,
-   "status": "waiting",
-   "range_high": 393.6,
-   "range_low": 388.32,
-   "note": "no 5-minute close above 393.60 yet"
-  },
-  {
-   "symbol": "NVDA",
-   "last": 145.98,
-   "status": "waiting",
-   "range_high": 158.1,
-   "range_low": 152.55,
-   "note": "no 5-minute close above 158.10 yet"
-  },
-  {
-   "symbol": "AMD",
-   "last": 489.19,
+   "last": 347.83,
    "status": "breakout",
-   "range_high": 552.0,
-   "range_low": 537.09,
+   "range_high": 370.34,
+   "range_low": 365.14,
    "breakout": {
-    "time_et": "09:50",
-    "time_sofia": "16:50",
-    "entry": 554.47,
-    "stop": 544.55,
-    "target": 564.39,
-    "risk": 9.92,
-    "shares": 2,
-    "cost": 1108.95,
-    "max_loss": 19.84,
-    "sized_by": "max loss",
-    "end_min": 590
+    "time_et": "09:55",
+    "time_sofia": "16:55",
+    "entry": 371.37,
+    "stop": 367.74,
+    "target": 375.0,
+    "risk": 3.63,
+    "shares": 4,
+    "cost": 1485.48,
+    "max_loss": 14.52,
+    "sized_by": "position cap",
+    "end_min": 595
    }
   },
   {
-   "symbol": "AAPL",
-   "last": 349.21,
+   "symbol": "NVDA",
+   "last": 128.9,
    "status": "waiting",
-   "range_high": 355.28,
-   "range_low": 348.55,
-   "note": "no 5-minute close above 355.28 yet"
+   "range_high": 143.73,
+   "range_low": 138.84,
+   "note": "no 5-minute close above 143.73 yet"
+  },
+  {
+   "symbol": "AMD",
+   "last": 430.81,
+   "status": "waiting",
+   "range_high": 471.94,
+   "range_low": 453.73,
+   "note": "no 5-minute close above 471.94 yet"
+  },
+  {
+   "symbol": "AAPL",
+   "last": 344.83,
+   "status": "waiting",
+   "range_high": 354.3,
+   "range_low": 349.35,
+   "note": "no 5-minute close above 354.30 yet"
   },
   {
    "symbol": "META",
-   "last": 596.22,
-   "status": "waiting",
-   "range_high": 630.01,
-   "range_low": 621.67,
-   "note": "no 5-minute close above 630.01 yet"
+   "last": 565.13,
+   "status": "breakout",
+   "range_high": 585.31,
+   "range_low": 573.48,
+   "breakout": {
+    "time_et": "10:00",
+    "time_sofia": "17:00",
+    "entry": 587.09,
+    "stop": 579.4,
+    "target": 594.78,
+    "risk": 7.69,
+    "shares": 2,
+    "cost": 1174.18,
+    "max_loss": 15.38,
+    "sized_by": "max loss",
+    "end_min": 600
+   }
   },
   {
    "symbol": "AMZN",
-   "last": 257.37,
-   "status": "waiting",
-   "range_high": 273.6,
-   "range_low": 270.78,
-   "note": "no 5-minute close above 273.60 yet"
+   "last": 248.51,
+   "status": "breakout",
+   "range_high": 256.51,
+   "range_low": 251.12,
+   "breakout": {
+    "time_et": "09:55",
+    "time_sofia": "16:55",
+    "entry": 257.69,
+    "stop": 253.82,
+    "target": 261.56,
+    "risk": 3.87,
+    "shares": 5,
+    "cost": 1288.45,
+    "max_loss": 19.35,
+    "sized_by": "max loss",
+    "end_min": 595
+   }
   },
   {
    "symbol": "MSFT",
-   "last": 498.3,
+   "last": 487.47,
    "status": "breakout",
-   "range_high": 524.78,
-   "range_low": 518.42,
+   "range_high": 498.36,
+   "range_low": 490.88,
    "breakout": {
     "time_et": "09:50",
     "time_sofia": "16:50",
-    "entry": 525.35,
-    "stop": 521.6,
-    "target": 529.1,
-    "risk": 3.75,
-    "shares": 2,
-    "cost": 1050.7,
-    "max_loss": 7.5,
+    "entry": 499.2,
+    "stop": 494.62,
+    "target": 503.78,
+    "risk": 4.58,
+    "shares": 3,
+    "cost": 1497.61,
+    "max_loss": 13.74,
     "sized_by": "position cap",
     "end_min": 590
    }
   },
   {
    "symbol": "PLTR",
-   "last": 153.68,
-   "status": "waiting",
-   "range_high": 167.13,
-   "range_low": 160.5,
-   "note": "no 5-minute close above 167.13 yet"
+   "last": 144.63,
+   "status": "breakout",
+   "range_high": 151.15,
+   "range_low": 147.55,
+   "breakout": {
+    "time_et": "10:00",
+    "time_sofia": "17:00",
+    "entry": 151.59,
+    "stop": 149.35,
+    "target": 153.83,
+    "risk": 2.24,
+    "shares": 8,
+    "cost": 1212.72,
+    "max_loss": 17.92,
+    "sized_by": "max loss",
+    "end_min": 600
+   }
   }
  ]
 }
